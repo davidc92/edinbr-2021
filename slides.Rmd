@@ -33,7 +33,7 @@ automation_levels <- data.frame(
 
 ## Background
 
-- The Information Services Division (ISD) of the National Health Service (NHS) Scotland produces around 200 official and national statistics publications each year.
+- Public Health Scotland (PHS) of the National Health Service (NHS) Scotland produces around 200 official and national statistics publications each year.
 - Traditional publication output is a **static pdf document** with accompanying **excel tables**.
 
 ```{r out.width = "50%", fig.align = 'center'}
@@ -109,7 +109,7 @@ kable(automation_levels,
 include_graphics(here::here("images", "hsmr_repo.png"))
 ```
 
-https://github.com/NHS-NSS-transforming-publications/hsmr
+https://github.com/Public-Health-Scotland/hsmr-new
 
 ## HSMR
 
@@ -120,7 +120,7 @@ The finished HSMR product is a bespoke R package which contains:
 - Complete automation of entire process start to finish
 - Output was checked against SPSS along the way to ensure accuracy
 
-First released: 13th August <br>
+First released: 13th August 2019 <br>
 https://www.isdscotland.org/Health-Topics/Quality-Indicators/HSMR/
 
 ## HSMR Benefits
@@ -141,33 +141,27 @@ A number of benefits have been realised with the RAP process for HSMR:
 
 ## Scaling RAP
 
-- The [Transforming Publishing (TPP)](https://www.isdscotland.org/Products-and-Services/Transforming-Publishing-Programme/) team have begun to roll out RAP to other teams in ISD using a buddy system
+- The [Transforming Publishing (TPP)](https://www.isdscotland.org/Products-and-Services/Transforming-Publishing-Programme/) team have begun to roll out RAP to other teams in PHS using a buddy system
 
 - One or two members of TPP 'buddy up' with another team to help them create a Reproducible Analytical Pipeline for their publication
 
 - As a minimum, we recommend teams aim for level 4 (a or b or both) as laid out in our [RAP paper](https://www.isdscotland.org/About-ISD/Methodologies/_docs/Reproducible_Analytical_Pipelines_paper_v1.4.pdf)
 
-## Other RAP Projects
+## How Things Have Progressed
 
-- Scottish Bowel Screening Statistics
-    - First RAP produced via the buddy system
-    - Team did development themselves and learned lots of new skills
-    - Development involved slower periods and more intensive weeks
-    
-- Upcoming RAP projects:
-    - End of Life 
-    - Mental Health Prescribing 
-    - HSMR (undergoing front-end transformation)
+```{r out.width = "90%", fig.align = 'center'}
+include_graphics(here::here("images", "progress.png"))
+```
 
 
 ## Links
 
 ### David Caldwell
 
-[Email](mailto:david.caldwell1@nhs.net)
+[Email](mailto:david.caldwell@phs.scot)
 [GitHub](https://github.com/davidc92)
 
 ### Transforming Publishing
 
-[Email](mailto:nss.isdtransformingpublishing@nhs.net)
-[GitHub](https://github.com/NHS-NSS-transforming-publications)
+[Email](mailto:phs.transformingpublishing@phs.scot)
+[GitHub](https://github.com/Public-Health-Scotland)
